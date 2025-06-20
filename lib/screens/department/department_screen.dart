@@ -27,7 +27,7 @@ class _DepartmentScreenState extends State<DepartmentScreen> {
   bool _isLoadingLocationsForForm = false;
   final Set<String> _deletingDepartmentIds = {};
   int _currentPage = 0;
-  final int _rowsPerPage = 7;
+  final int _rowsPerPage = 6;
   String _searchQuery = '';
 
   @override
