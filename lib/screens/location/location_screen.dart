@@ -24,7 +24,7 @@ class _LocationScreenState extends State<LocationScreen> {
   bool _isLoadingPage = true;
   final Set<String> _deletingLocationIds = {};
   int _currentPage = 0;
-  final int _rowsPerPage = 7;
+  final int _rowsPerPage = 6;
   String _searchQuery = '';
 
   @override
