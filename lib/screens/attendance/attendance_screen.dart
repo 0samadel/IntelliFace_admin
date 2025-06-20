@@ -28,7 +28,7 @@ class _AttendanceScreenState extends State<AttendanceScreen> {
   bool _isLoading = true;
   final Set<String> _deletingRecordIds = {};
   int _currentPage = 0;
-  final int _rowsPerPage = 7;
+  final int _rowsPerPage = 6;
 
   @override
   void initState() {
